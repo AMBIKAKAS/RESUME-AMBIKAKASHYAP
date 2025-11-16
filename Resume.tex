@@ -1,0 +1,204 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Ambika Kashyap}} & Email: \href{mailto:}{ambikakashyap736@gmail.com}\\
+  \href{https://www.linkedin.com/in/ambika70026/}{Linkden Profile} & Mobile:~~~+91-7814065959 \\
+  \href{https://github.com/AMBIKAKAS}{Github Profile} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Chandigarh University}{Mohali, Punjab}
+    {Bachelor of Engineering - Computer Science; CGPA: 8.72}{September 2023 -- Expected June 2027}
+
+  \resumeSubheading
+    {Sri Guru Gobind Singh Sr. Sec. School}{Sector-35B, Chandigarh}
+    {Secondary School Education (Science); Percentage: 80.2}{July 2021 -- May 2023}
+
+  \resumeSubheading
+    {Carmel Convent School}{Sector-9B, Chandigarh}
+    {High School Education; Percentage: 93.4}{July 2009 -- April 2021}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, C++, JavaScript, SQL}
+	\resumeSubItem{Frameworks}{~~~~Node.js, React.js, Next.js, Mongoose}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~GIT, Firebase, PostgreSQL, MySQL, SQLite}
+	\resumeSubItem{Platforms}{~~~~~~~ AWS,IBM Cloud}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading{Humanity Founders-Internship}{Remote, San Francisco Bay Area}
+    {Full Stack Web Developer Intern}{Oct 2025 -- Present}
+    \resumeItemListStart
+        \resumeItem{SalesGPT Application Development}
+            {Currently developing the end-to-end SalesGPT application, focusing on scalable architecture and clean API integration.}
+        \resumeItem{Frontend Integration \& UI Development}
+            {Building and integrating responsive UI components for chat flow, message threads, dashboards, and user interaction screens using HTML, CSS, and modern JavaScript frameworks.}
+        \resumeItem{API Consumption \& Workflow Automation}
+            {Implementing REST API calls, handling prompts, and designing seamless communication between frontend components and backend services.}
+        \resumeItem{Performance \& Accessibility Optimization}
+            {Optimizing load times, improving component performance, and ensuring cross-browser accessibility following industry best practices.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{\href{https://environment-project-ti3b.onrender.com/}{EcoCircle}}{Node.js, Express, MongoDB, EJS}
+{Full Stack Sustainability Platform}{}
+\resumeItemListStart
+    \item Built a sustainability tracking system for factories with reward points and NGO training resources.
+    \item Implemented authentication, dashboards, leaderboards, and advertisement-claim workflows.
+    \item Designed scalable backend processes with clean routing and modular architecture.
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://flixverse-6989.onrender.com/}{Netflix Clone}}{React, JavaScript, OMDB API, YouTube API}
+{OTT Movie Streaming Web App}{}
+\resumeItemListStart
+    \item Developed a dynamic movie browsing UI with category-based navigation.
+    \item Integrated OMDB API for retrieving movie posters and details.
+    \item Added YouTube trailer embedding with real-time search and toast notifications.
+\resumeItemListEnd
+
+\resumeSubheading
+{\href{https://floodmanagement.onrender.com}{Farm Flood Aid}}{HTML, CSS, JS, Node.js, Express, MongoDB}
+{Disaster Assistance Platform for Myanmar}{}
+\resumeItemListStart
+    \item Built a responsive aid platform with chatbot, crop marketplace, and NGO directory.
+    \item Created real-time communication workflow for emergency support.
+    \item Developed clean dashboards and modular backend endpoints.
+\resumeItemListEnd
+
+\resumeSubheading
+{SalesGPT}{HTML, CSS, JS, Node.js}
+{AI-Powered Sales Assistant (Humanity Founders Internship)}{}
+\resumeItemListStart
+    \item Developing AI-driven chat workflow UI and full frontend integration.
+    \item Implementing API connections, prompt handling, and automated sales processes.
+    \item Designing responsive user interfaces for smooth user interactions.
+\resumeItemListEnd
+
+
+\section{Achievements}
+\resumeSubHeadingListStart
+
+\resumeSubItem{\href{https://buildmyanmar.org/hackathon/}{Community Impact Award – Myanmar Flood Response Hackathon}}%
+{Won the \textbf{Community Impact Award} for developing \textit{FarmFloodAid}, a flood-response platform supporting farmers in Myanmar.}
+
+\vspace{2pt}
+
+\resumeSubItem{\href{https://www.hackerrank.com/certificates/25d1035d186f}{SQL (Intermediate) Certificate – HackerRank}}%
+{Validated SQL proficiency including joins, aggregation, filtering, and subqueries.  
+\textbf{Credential ID:} 25D1035D186F}
+
+\vspace{2pt}
+
+\resumeSubItem{\href{https://badges.parchment.com/backpack/badges/66c638f0fdabe85abf65a968?navigationSource=backpack}{Postman API Fundamentals Student Expert – Postman}}%
+{Certified expertise in API testing, collections, environments, workflows, and API documentation.}
+
+\vspace{2pt}
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Professional Certification}
+  \resumeSubHeadingListStart
+	\resumeSubItem{\href{https://learn.microsoft.com/en-us/users/ambikakashyap-3215/credentials/certification/azure-fundamentals?tab=credentials-tab}{Microsoft Certified: Azure Fundamentals}}%
+{Earned the official Azure Fundamentals certification from Microsoft, demonstrating knowledge of cloud concepts, Azure architecture, services, pricing, governance, and security. \vspace{2pt}
+\textbf
+{Credential ID:} 306C35426DE90A35}
+
+\resumeSubHeadingListEnd
+
+\end{document}
